@@ -30,7 +30,7 @@
       justify-content: center;
       gap: 2rem;
       padding: 1rem;
-      z-index: 1000;
+      z-index: 2000;
     }
     nav a {
       color: white;

@@ -14,8 +14,9 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      background: #f4f4f9;
-      color: #333;
+      background: url("images/background.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
     }
 
     /* Navbar */

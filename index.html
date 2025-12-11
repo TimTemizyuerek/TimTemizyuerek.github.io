@@ -1,0 +1,291 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Tim Temizyürek </title>
+  <style>
+    /* General styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      overscroll-behavior-y: contain;
+      /*font-family: Arial, sans-serif;*/
+      font-family: Georgia;
+      line-height: 1.6;
+      background: url("background.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgb(55, 135, 63);
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      z-index: 2000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sections */
+    section {
+      scroll-margin-top: 50px;
+    }
+    #home h1 {
+      font-size: 2.5rem;
+    }
+    #about, #projects, #publications, #miscellaneous, #contact {
+      background: rgb(255, 254, 250);
+      color:rgb(0, 0, 0);
+      margin: 2.5rem auto;
+      border-radius: 10px;
+      max-width: 1100px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem 2rem 2rem 2rem;
+    }
+    
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgb(55, 135, 63);
+      color: rgb(0, 0, 0);
+    }
+    /* list */
+    ul {
+      padding-left: 1rem; 
+    }
+    /* font colour*/
+    .highlight {
+      color: rgb(116, 116, 116); /* custom color for specific elements */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#miscellaneous">Miscellaneous</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+      <h2 style="text-align: center;">Tim Temizyürek, PhD student</h2>
+      <br>
+      <p style="text-align: justify;"> 
+        <img src="me.jpeg" alt="me" style="float: right; width: 220px; margin-left: 2rem;">
+        I did my Bachelor in biology at Bielefeld University (Germany), and a joint Master in evolutionary biology 
+        at Uppsala University (Sweden) and the University of Groningen (Netherlands). I am currently doing 
+        a PhD at the University of Queensland (Australia) on eco-evo interactions in duckweeds in the <a href="https://www.hartlab-ecology.com/">Hart Lab</a>.
+      </p>
+      <br>
+      <p style="text-align: justify;"> I find that scientists benefit from different ways of approaching and doing things, and to pick up different
+        approaches I have worked on ants, plants, songbirds, parrots, monkeys & humans driven by questions centering 
+        around behavioural ecology, ancient DNA community reconstruction, human personality measurement and collective behaviour.
+      </p>
+      <br>
+      <p style="text-align: justify;"> I draw inspiration from Kuhn's and Feyerabend's philosophy of science, which I interpret as a case 
+        for pluralism of ideas and approaches in science. In the absence of a given reality for us to study, there is so much 
+        room for us to play with different conceptualizations of the world that sticking to any one would be boring 😄
+      </p>
+  </section>
+
+ <!-- projects Section -->
+  <section id="projects">
+      <h2 style="text-align: center;">Current projects</h2>
+      <br>
+      <img src="duckweed.JPG" alt="duckweed" style="float: left; width: 300px; margin-right: 2rem;">
+      <b>Duckweed genetic population structure</b>
+      <p style="text-align: justify;"> In my first PhD chapter, I am using a genotype-by-sequencing approach to investigate meta-population structure and multispecies 
+        competitive environemnts of two local duckweed species <i>Lemna aequinoctialis</i> (light green) & <i>Landoltia punctata</i> (dark green). 
+      </p>
+      <br>
+      <b>Plasticity, selection, density and trait change</b>
+      <p style="text-align: justify;"> For the second and third chapters, I am conducting eco-evo duckweed experiments on duckweeds.
+        When genetic variation is fixed, individuals can change their traits via plasticity, and populations can change their 
+        traits via selection among individuals (so far so evolution). At the same time, density shapes individual and population traits 
+        (so far to ecology). I am using a density dependant trait to investigate how density mediates plasticity and selection to change traits of 
+        individuals and populations.
+      </p>
+      <br>
+      <b>Defintions of phenotypic plasticity</b>
+      <p style="text-align: justify;"> Spinning of from the empirical work, I am working on a conceptual project on different definitions of 
+        phenotypic plasticity. The classic definition: "The ability of a given genotype to express different phenotypes in different environments" 
+        is an umbrella definition housing several different definitions depending on how one defines genotype, phenotype, and environment. 
+        My aim is to develop the different definitions of phenotypic plasticity into a resource for phenotypic plasticity research on a variety of 
+        biological systems and questions. 
+      </p>
+  </section>
+
+
+  <!-- Publications Section -->
+  <section id="publications">
+    <h2 style="text-align: center;">Publications</h2>
+    <br>
+    <p><b>Temizyürek, T.</b>, Richardson, G, B., Brown, G. Comparability of personality facets between men and women: A test of measurement invariance in IPIP-NEO facets in 49 countries. <b>2024</b>. Journal of Research in Psychology, 113.
+    <a href="Temizyürek et al. 2024 Measurement Invarriance.pdf" download>PDF</a>
+    </p>
+    <br>
+    <p><b>Temizyürek, T.</b>, Johannknecht, M., Korsten, P. Incubation before Clutch Completion Predicts Incubation Time and Hatching Asynchrony in the Blue Tit (<i>Cyanistes caeruleus</i>). <b>2022</b>. Ardea, 110(2), 213-231.
+    <a href="Temizyürek et al. 2022 Hatching Asynchrony.pdf" download>PDF</a>
+    </p>
+    <br>
+    <p>Patlar, B., Weber, M., <b>Temizyürek, T.</b>, & Ramm, S. A. Seminal Fluid-Mediated Manipulation of Post-mating Behavior in a Simultaneous Hermaphrodite. <b>2020</b>. Current Biology, 30(1), 143-149.e4.
+    <a href="Bahar et al. 2020 Seminal Fluid Protein.pdf" download>PDF</a>
+    </p>
+  </section>
+
+  <!-- Miscellaneous Section -->
+  <section id="miscellaneous">
+    <h2 style="text-align: center;">Miscellaneous</h2>
+    <br>
+    
+    <h3 style="text-align: left;">Book recommendations</h3>
+    
+    <ul>
+      <li><i>The French Revolution a History</i>, Carlyle (1857)<br>
+        <p class="highlight"> Rare genuine synthesis of literature and science</p></li>
+
+      <li><i>The Decline of the West</i>, Spengler (1922)<br>
+        <p class="highlight">A fully Kuhnian (philosophy of) history (includes a chapter on different mathematics)</p></li>
+
+      <li><i>The Great Chain of Being A Study of the History of an Idea</i>, Lovejoy (1936)<br>
+        <p class="highlight">Great science history, blueprint for Mayr's Growth of Biological Thought</p></li>
+
+      <li><i>Kulturgeschichte des Altertums</i>, Friedell (1938)<br>
+        <p class="highlight">Amazing reconstruction of ancient culture and thinking</p></li>
+
+      <li><i>On Understanding Science An Historical Approach</i>, Conant (1947)<br>
+        <p class="highlight">Makes you almost believe that the universities of the good old times really existed</p></li>
+
+      <li><i>The Elements of Style</i>, Strunk & White (1959)<br>
+        <p class="highlight">A short read on concise style</p></li>
+
+      <li><i>The Structure of Scienctific Revolutions</i>, Kuhn (1962)<br>
+        <p class="highlight">Amazing combination of being right but getting every detail wrong</p></li>
+
+      <li><i>Laboratory Life The Construction of Scientific Facts</i>, Latour, Woolgar (1979)<br>
+        <p class="highlight">Constructivist account of biology</p></li>
+
+      <li><i>The Growth of Biological Thought</i>, Mayr (1982)<br>
+        <p class="highlight">Traces diversity, evolution and inheritance through Western thought</p></li>
+
+      <li><i>Men of Mathematics</i>, Bell (1986)<br>
+        <p class="highlight">Collection of apparently questionable but nontheless meaningful biographies</p></li>
+
+      <li><i>Towards a new Philosophy of Biology</i>, Mayr (1988)<br>
+        <p class="highlight">The closest a scientist can come to philosophy before becoming a philosopher</p></li>
+
+      <li><i>Genius The Life and Science of Richard Feynman</i>, Gleick (1992)<br>
+        <p class="highlight">Including information of Feynman's approach to science</p></li>
+
+      <li><i>The Heretic in Darwin's Court The Life of Alfred Russel Wallace</i>, Slotten (2004)<br>
+        <p class="highlight">A warning that supernatural phenomena are best not be pursued rationally</p></li>
+
+      <li><i>Marie Curie A Biography</i>, Ogilvie (2004)<br>
+        <p class="highlight">Lays out Curie's exemplary science ethics</p></li>
+
+      <li><i>Science, Policy, and the Value-Free Ideal</i>, Douglas (2009) <br>
+        <p class="highlight">Shows that objective science is impossible and undesireable</p></li>
+
+      <li><i>The Price of Altruism George Price and the Search for the Origins of Kindness</i>, Harman (2010)<br>
+        <p class="highlight">"Might go hay-wire but will never be humdrum"</p></li>
+
+      <li><i>Crazy Like Us The Globalization of the American Psyche</i>, Watters (2010)<br>
+        <p class="highlight">Stark example the tyrannical science Feyerabend warened about</p></li>
+
+      <li><i>Darwinian Populations and Natural Selection</i>, Godfrey-Smith (2011)<br>
+        <p class="highlight">Critizies definitions of evolution as just phenotypic variation, differential & heritable fitness</p></li>
+
+      <li><i>The Fall of the Faculty</i>, Ginsberg (2011)<br>
+        <p class="highlight">Polemic against administrative overload at universities</p></li>
+
+      <li><i>The Sixth Extinction An Unnatural History</i>, Kolbert (2014)<br>
+        <p class="highlight">Very good popular science writing</p></li>
+
+      <li><i>The Lost Elements</i>, Costa, Fontani & Orna (2015)<br>
+        <p class="highlight">On the discovery of the elements, including all the dead-ends</p></li>
+
+      <li><i>How to Tame a Fox (and Build a Dog)</i>, Dugatkin & Trut (2017)<br>
+        <p class="highlight">Amazing long-term evolution experiment on fox domestication in the Soviet Union</p></li>
+      </ul>
+      <br>
+      
+      <h3 style="text-align: left;">Useful links</h3>
+      
+      <ul>
+      <li> <a href="https://dailynous.com/">DailyNous.com</a>
+      <p class="highlight">Active philosophy academia forum</p></li>  
+
+      <li> <a href="https://stearnslab.yale.edu/modest-advice"> Modest Advice</a>
+      <p class="highlight">Advice for PhD students</p></li>
+
+      <li> <a href="https://github.com/RILAB/statements"> github.com/RILAB/statements</a>
+      <p class="highlight">Examples of successful academic grant, fellowhip and job applications</p></li>
+
+      <li> <a href="https://www.denizcemonduygu.com/philo/browse/"> History of Philosophy</a>
+      <p class="highlight">Amazing visualisation of who agrees/disagrees with whom in philosophy</p></li>
+
+      <li> <a href="https://reflectionsonpaperspast.wordpress.com/"> Reflections on papers past</a>
+      <p class="highlight">Repository of important eco-evo papers with interview of the authors</p></li>
+      </ul>
+    <br>
+    
+    <h3 style="text-align: left;">Translations</h3>
+  
+     <p style="text-align: justify;"> 
+     <b>Hannah Arendt</b> spoke on the German radio (Bayerischer Rundfunk) on the occasion of Martin Heideggers 80th birthday about 
+     Heidegger's philosophy teaching, and by analogy, about how one should do philosophy. The broadcast is packed with ideas and 
+     displays Hannah Arendt's uncompromising moral philosophical compass. A version of the German text is 
+     available (paywalled) at the <a href="https://www.merkur-zeitschrift.de/artikel/martin-heidegger-ist-achtzig-jahre-alt-a-mr-23-10-893/">
+     Merkur Zeitschrift<a>, and an English translation (also paywalled) at <a href="https://www.nybooks.com/articles/1971/10/21/martin-heidegger-at-eighty/">
+     The New York Review of Books</a>. A partial recording of the broadcast can be found on 
+     <a href="https://www.youtube.com/watch?v=a8O6zvAGR-c">YouTube<a>. You can download my translation of the broadcast
+     <a href="placeholder">here</a>.
+    
+    </p>
+     <br>
+     <p style="text-align: justify;">
+     There is no better way to make you feel uneducated (about history) than by reading <b>Egon Friedell</b>. He sets the standard for historical scholarship
+     in both comprehensivness of knoweldge, and more importantly, in his ability to interpret history, thereby removing any distance that the 
+     elapsed time has created. Somewhat infuriatingly, he also commanded the most beautiful German, using the language not just for transport, 
+     but for the direct expression of ideas; he wrote poetry in prose. I have translated (the meaning, not the poetry) of two short chapters 
+     that stayed with me from his <i>Kulturgeschichte des Altertums</i> (<i>Cultural History of Antiquity</i>), 
+     you can download them <a href="Egon Friedel - Soul and Environment, The Appearance of Being - 1940.pdf"> here</a>.
+     </p>
+    </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <p style="text-align: center;">
+    <a href="mailto:t.temizyurek@uq.edu.au">Email</a> |
+    <a href="https://scholar.google.com/citations?user=n2kBI1YAAAAJ&hl=en"> Scholar</a> |
+    <a href="https://bsky.app/profile/timtemizyurek.bsky.social"> BlueSky</a> |
+    <a href="https://github.com/TimTemizyuerek"> GitHub</a> |
+    <a href="https://orcid.org/0000-0003-0403-549X"> ORCiD</a> |
+    <a href="https://www.linkedin.com/in/tim-temizy%C3%BCrek-6b03a6326/">LinkedIn</a>
+    </p>
+  </section>
+
+</body>
+</html>
